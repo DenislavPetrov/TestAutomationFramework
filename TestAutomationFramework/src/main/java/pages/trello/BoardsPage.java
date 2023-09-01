@@ -38,7 +38,7 @@ public class BoardsPage extends BaseTrelloPage {
         actions.waitForElementPresent("//a[@class='list-card js-member-droppable ui-droppable']");
         actions.waitForElementPresent("(//div[@data-testid='list-header'])[2]");
 
-        actions.selectOptionsFromDragAndDrop(moveThisCardLocator, toThisPlaceLocator);
+        actions.dragAndDropElement(moveThisCardLocator, toThisPlaceLocator);
     }
     public void deleteBoard() {
 
@@ -54,7 +54,6 @@ public class BoardsPage extends BaseTrelloPage {
     public void addNewList(String listName) {
 
         actions.waitForElementClickable("//input[@class='list-name-input']");
-        actions.clickElement("//input[@class='list-name-input']");
         actions.typeValueInField(listName, "//input[@class='list-name-input']");
 
         actions.waitForElementClickable("//input[@type='submit' and @value='Add list']");

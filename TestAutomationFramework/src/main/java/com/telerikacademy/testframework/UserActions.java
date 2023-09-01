@@ -147,14 +147,4 @@ public class UserActions {
             Assert.fail("Element with locator: '" + xpath + "' was not found.");
         }
     }
-    public void selectOptionsFromDragAndDrop(String sourceLocator, String targetLocator, Object... locatorArguments) {
-        String sourceXpath = getLocatorValueByKey(sourceLocator, locatorArguments);
-        String targetXpath = getLocatorValueByKey(targetLocator, locatorArguments);
-
-        WebElement sourceElement = driver.findElement(By.xpath(sourceXpath));
-        WebElement targetElement = driver.findElement(By.xpath(targetXpath));
-
-        Actions actions = new Actions(driver);
-        actions.dragAndDrop(sourceElement, targetElement).build().perform();
-    }
 }
