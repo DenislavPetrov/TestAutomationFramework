@@ -16,13 +16,13 @@ public class BoardTest extends BaseTest {
 
         BoardsPage boardsPage = new BoardsPage(actions.getDriver());
         boardsPage.createBoard();
-        boardsPage.addNewList("To Do");
-        boardsPage.addNewList("Doing");
-        boardsPage.addNewList("Done");
+        boardsPage.addNewList("TODO");
+        boardsPage.addNewList("DOING");
+        boardsPage.addNewList("DONE");
 
         BoardPage boardPage = new BoardPage(actions.getDriver());
 
-        boardPage.assertListExists("To Do");
+        boardPage.assertListExists("TODO");
         boardPage.assertBoardIsNotEmpty("trello.boardName");
     }
 

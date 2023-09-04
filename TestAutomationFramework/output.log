@@ -1,8 +1,15 @@
-2023-09-01 19:14:42,521 INFO  [main] Initializing WebDriver
-2023-09-01 19:14:44,614 INFO  [main] Initializing WebDriver
-2023-09-01 19:14:44,616 INFO  [main] Initializing WebDriver
-2023-09-01 19:14:45,372 INFO  [main] Clicking on element trello.loginPage.loginButton
-2023-09-01 19:14:47,475 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
-2023-09-01 19:14:51,793 INFO  [main] Initializing WebDriver
-2023-09-01 19:14:51,809 INFO  [main] Clicking on element trello.boardsPage.boardByTeamAndName
-2023-09-01 19:14:52,918 INFO  [main] Quitting WebDriver
+2023-09-01 19:38:48,024 INFO  [main] Initializing WebDriver
+2023-09-01 19:38:50,112 INFO  [main] Initializing WebDriver
+2023-09-01 19:38:50,114 INFO  [main] Initializing WebDriver
+2023-09-01 19:38:50,832 INFO  [main] Clicking on element trello.loginPage.loginButton
+2023-09-01 19:38:52,985 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
+2023-09-01 19:38:57,281 INFO  [main] Initializing WebDriver
+2023-09-01 19:38:57,304 INFO  [main] Clicking on element trello.header.create.menuButton
+2023-09-01 19:38:57,885 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
+2023-09-01 19:38:58,599 INFO  [main] Clicking on element trello.create.board.submitButton
+2023-09-01 19:38:59,733 INFO  [main] Clicking on element //input[@type='submit' and @value='Add list']
+2023-09-01 19:39:00,012 INFO  [main] Clicking on element //input[@type='submit' and @value='Add list']
+2023-09-01 19:39:00,144 INFO  [main] Clicking on element //input[@type='submit' and @value='Add list']
+2023-09-01 19:39:00,177 INFO  [main] Initializing WebDriver
+2023-09-01 19:39:00,202 INFO  [main] Clicking on element trello.boardPage.RecentProject
+2023-09-01 19:39:00,782 INFO  [main] Quitting WebDriver
